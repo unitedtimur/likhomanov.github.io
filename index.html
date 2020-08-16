@@ -44,9 +44,10 @@
             <div class="container">
                 <h1 class="font-size-90 color-me">I'm 
 			<script>
-			function get_current_age('1998-12-17') {
+			function get_current_age(date) {
 	  			return ((new Date().getTime() - new Date(date)) / (24 * 3600 * 365.25 * 1000)) | 0;
 			}
+			get_current_age('1998-12-17');
 			</script> y.o.</h1>
                 <h2 class="opacity-60 color-me-down">Developer from Russia</h2>
             </div>
